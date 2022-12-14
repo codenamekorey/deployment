@@ -1,3 +1,7 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+
 // Static files = not handled by the server
 
 // Express. static is middleware, makes it so that any request has access to the given file
