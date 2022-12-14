@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 //Gets the home page
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname, '../index.html'));
 })
 
 app.listen(4000, () => console.log(`Running on 4000!`));
